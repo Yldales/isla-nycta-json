@@ -1,0 +1,40 @@
+{
+    "name": "Albertaceratops",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 8,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Bull albertaceratops go to great lengths to impress females, often bringing them gifts to woo them over.",
+        "Bull-fights to further impress females are not uncommon, however, these brawls rarely ever result in death, usually ending in submission instead.",
+        "Tend to be very social, often mingling with other species of herbivore."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

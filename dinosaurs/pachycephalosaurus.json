@@ -1,0 +1,63 @@
+{
+    "name": "Pachycephalosaurus",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": true,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 5,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Known to live in large herds, and usually do not follow any single leader within the herd.",
+        "During mating season, male Pachy try to establish a dominance hierachy by headbutting each other at full speed until one side yields.",
+        "Females within the herd seem to have a hierarchy that relates to age.",
+        "Known to be omnivorous, mostly when alone or in herds with other Pachycephalosaurus."
+    ],
+    "rules": [
+        {
+            "content": "Pachycephalosaurus fall under the Omnivore Rules.",
+            "subItems": [
+                {
+                    "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
+                    "subItems": []
+                },
+                {
+                    "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
+                    "subItems": []
+                },
+                {
+                    "content": "Carnivorous Pachycephalosaurus fall under Carnivore Rules, and can hunt, or challenge any carnivore for a body.",
+                    "subItems": []
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

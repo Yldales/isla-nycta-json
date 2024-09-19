@@ -1,0 +1,39 @@
+{
+    "name": "Allosaurus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Highly cannibalistic, often killing younger allosaurus to snuff out future competition.",
+        "Extremely sharp claws that cause heavy bleed towards prey."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

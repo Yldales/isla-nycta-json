@@ -1,0 +1,42 @@
+{
+    "name": "Kelenken",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Aptly known as the 'terror bird', this once apex predator sports a gigantic skull that serves as its primary weapon. Its sheer size swings for massive damage, while the hooked beak allows for precision in paralyzing prey, and for shearing meat off of carcasses.",
+        "These gregarious predators show a flamboyant side by \"lekking\", gathering in large numbers in an open area to attract potential mates with intricate dances and vocalizations.",
+        "When populations of Kelenken in an area become too high, groups will become fiercely territorial towards each other and engage in cacophonous and chaotic turf wars. In most cases these confrontations don't end in death, though a displaced group of these birds becomes easy pickings for cannibalistic Kelenken or other predators.",
+        "Nesting Kelenken and those with chicks will similarly become hyper-defensive, \"swooping\" possible threats by chasing and darting off at the last second.",
+        "Known to stare down other species from a distance while standing motionless - whether they are sizing up their threats or zoning out is something only the Kelenken itself knows."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

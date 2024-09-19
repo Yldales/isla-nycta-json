@@ -1,0 +1,46 @@
+{
+    "name": "Miragaia",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+      {
+        "operator": "AND",
+        "limitations": [
+          {
+            "ages": [
+              "Adult",
+              "Subadult"
+            ],
+            "size": 4,
+            "species": "Any"
+          },
+          {
+            "ages": [
+              "Hatchling",
+              "Juvenile",
+              "Adolescent"
+            ],
+            "size": "Unlimited",
+            "species": "Any"
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      "The quills of the Miragaia are not only visually intimidating but also carry toxins within their barbs. If struck, these toxins can cause effects ranging from mild weakness to severe paralysis.",
+      "Miragaia are highly social creatures, known to openly welcome Stegosaurus and Kentrosaurus into their herds. Often seen as guardians, they protect their young by surrounding them, exposing their dangerous quills to ward off potential threats.",
+      "When threatened, they shake their tails to rattle their sharp quills, creating a distinct, threatening noise that warns predators to stay away. This combination of sound and visual threat effectively deters potential attackers.",
+      "These dinosaurs love to wallow in mud, which helps them cool off and protects their skin from the sun and parasites. Once dried, the mud forms a protective layer over their skin."
+    ],
+    "rules": [
+      {
+        "content": "As the Spit ability is a debuff, this is an aggressive ability. Please remember that herbivores are not supposed to be going up to carnivores or omnivores to be aggressive, and if the ability is used on herbivores, just be prepared for possible aggression in return.",
+        "subItems": []
+      }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+  }

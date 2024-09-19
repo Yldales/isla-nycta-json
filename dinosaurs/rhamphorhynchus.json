@@ -1,0 +1,57 @@
+{
+    "name": "Rhamphorhynchus",
+    "tier": 0,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "OR",
+            "limitations": [
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": "Unlimited",
+                    "species": [
+                        "Rhamphorhynchus"
+                    ]
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "They are highly social, particularly during non-breeding seasons. They gather in large, noisy flocks along coastlines, demonstrating cooperative behaviors such as communal feeding and collective vigilance against predators.",
+        "With a strong dependence on a diet consisting mainly of fish, they demonstrate awe-inspiring aerial dives into the water to hunt with remarkable grace and precision.",
+        "Similar to the ground-dwelling Compsognathus, Rhamphorhynchus are occasionally tolerated by other species as they assist in insect removal. However, exploiting this trust, they occasionally seize the opportunity to rip at healing wounds. Though this behavior doesn't inflict harm, it may result in a discomforting itch or dizziness for the unwitting donor due to minor blood loss.",
+        "As a consequence of this distinctive feeding behavior, there is a potential risk that they may carry bloodborne diseases, posing a transmission risk to their victims during these opportunistic encounters."
+    ],
+    "rules": [
+        {
+            "content": "As Rhamphorhynchus are tolerated by all, they can use others as a taxi, or assist, at their own risk.",
+            "subItems": []
+        },
+        {
+            "content": " While the game prevents them from grouping with herbivores, they may group with carnivores, and assist both interchangeably.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

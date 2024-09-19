@@ -1,0 +1,41 @@
+{
+    "name": "Moraquile",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "When it cross paths with others of its kind, they engage in impressive aerial displays, sizing each other up in a test of endurance. Conflicts become a chaotic flurry of talons and feathers until one retreats or falls.",
+        "As a skilled aerial predator, it uses sharp eyesight and agility to spot prey from high above. It then performs calculated dives, utilizing gravity and speed to close in on unsuspecting creatures.",
+        "They are known to select nesting sites that offer a combination of seclusion, security, and elevation. Cliffsides, high tree branches, and rocky crevices are among their preferred choices. ",
+        "The clattering of their beaks functions as a form of communication within their species and a method to intimidate prey, given that the sound can travel far beyond their immediate vicinity. This behavior mirrors their complex social interactions, effectively transmitting messages such as alerts and mating calls."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

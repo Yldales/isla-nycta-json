@@ -1,0 +1,64 @@
+{
+    "name": "Sachicasaurus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Very protective of their food, and are highly aggressive to anything that attempts to eat from it.",
+        "Sophisticated and effective predators, hunting almost anything that finds itself in the water.",
+        "Known to lunge onto the banks of beaches or rivers to grab prey off the shore.",
+        "Known to be highly cannibalistic."
+    ],
+    "rules": [
+        {
+            "content": "Solo AND paired adult/sub Sachicasaurus will defend any lake they reside in from stranger adult/sub Sachicasaurus, guarding any aquatic resources their water may hold.",
+            "subItems": [
+                {
+                    "content": "This includes preventing stranger adult/sub Sachicasaurus from remaining on their shoreline.",
+                    "subItems": []
+                },
+                {
+                    "content": "These challenges follow the Lake Territory challenge rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "The following water sources cannot be challenged for, but personal space rules still apply.",
+                    "subItems": [
+                        {
+                            "content": "Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.",
+                            "subItems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

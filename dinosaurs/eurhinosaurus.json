@@ -1,0 +1,41 @@
+{
+    "name": "Eurhinosaurus",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "These predators primarily reside in the open ocean but venture into shallower areas like bays, estuaries, and coral reefs during migration or birthing seasons in warmer periods.",
+        "Employing swift and agile maneuvers, the group adeptly encircles and herds prey before launching a coordinated attack, whether it involves slashing through schools of smaller prey or inflicting gouges on larger quarry.",
+        "To foster bonding, younger individuals may actively participate in group \"porpoising,\" engaging in acrobatic displays that encompass vertical and high-arcing leaps, as well as spins and twists, showcasing their agility and coordination.",
+        "They will sometimes carry an accessory to show off their fitness or enhance their appearance. A fascination with lake sponge, pretty shells, or other items may spread to the whole pod as a fashion craze until the next fad is found, while objects from the land such as flowers or mushrooms are of particular interest to these aquatic creatures due to their novelty."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

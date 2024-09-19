@@ -1,0 +1,40 @@
+{
+    "name": "Lambeosaurus",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [   
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 8,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Incredible social herbivores, and are often seen bonding and socializing with not only each other, but also other herbivores.",
+        "Not the brightest creatures, some male lambeosaurus are known to mistake female iguanodon as potential mates, and attempt to woo them to no avail.",
+        "Often incredibly loud, loving to boast and broadcast at any hour."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

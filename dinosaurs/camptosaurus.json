@@ -1,0 +1,34 @@
+{
+    "name": "Camptosaurus",
+    "tier": 1,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Being relatively fragile, these herbivores prefer to stick around larger herbivores to use as meat-shields.",
+        "Often loud and bold, even known to taunt larger carnivores before fleeing for their life.",
+        "Loves to collect things, often making stashes of completely arbitrary items."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

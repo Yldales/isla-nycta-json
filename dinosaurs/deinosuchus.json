@@ -1,0 +1,68 @@
+{
+    "name": "Deinosuchus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "They exhibit a marked preference for specific riverine or lake environments, often establishing long-term residency in these locations.",
+        "Generally tolerable of smaller carnivores, and doesn't care if Compsognathus, Laten or Deinonychus pick off their meals if they're not currently eating.",
+        "Shows a preference for scavenging on carrion rather than actively hunting for live prey, often bullying other carnivores off of their meals rather than hunting.",
+        "In their youth, they frequently gather in a large group called a \"bask.\" However, as they grow older, they develop territorial tendencies, accepting only their chosen companion and their own offspring, who are chased from the adults' water source once they come of age."
+    ],
+    "rules": [
+        {
+            "content": "Solo AND paired adult/sub Deinosuchus will defend any lake they reside in from stranger adult/sub Deinosuchus, guarding any aquatic resources their water may hold.",
+            "subItems": [
+                {
+                    "content": "This includes preventing stranger adult/sub Deinosuchus from drinking from their lake, or remaining on their shoreline.",
+                    "subItems": []
+                },
+                {
+                    "content": "These challenges follow the Lake Territory challenge rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "The following water sources cannot be challenged for, but personal space rules still apply.",
+                    "subItems": [
+                        {
+                            "content": "Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.",
+                            "subItems": []
+                        }
+                    ]
+                },
+                {
+                    "content": "Using its carrying/grappling ability for any thing other than fighting is a break of the personal space and/or helping other species rules. No carrying off/pouncing things for fun.",
+                    "subItems": []
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

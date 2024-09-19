@@ -1,0 +1,40 @@
+{
+    "name": "Pycnonemosaurus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Known to fearlessly charge and ram competition and prey alike, regardless of size.",
+        "Commonly roughhouse as play with their packmates, ramming each other and playfully biting, however these interactions never end in death.",
+        "Unafraid to cannibalize, sometimes seeming to even prefer eating young Pycnonemosaurus outside of their pack to actual prey."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

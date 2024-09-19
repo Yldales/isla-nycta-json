@@ -1,0 +1,40 @@
+{
+    "name": "Amargasaurus",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Long, whip-like tails are often used as a dangerous weapon, or a method of communication between Amargasaurus.",
+        "Usually known to be nomadic, traveling long distances and enjoying new territory.",
+        "Some Amargasaurus have developed spiked sails, giving them extra protection against predators."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

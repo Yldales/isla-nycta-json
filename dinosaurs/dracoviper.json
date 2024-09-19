@@ -1,0 +1,40 @@
+{
+    "name": "Dracoviper",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Dracovipers are social creatures, often found in small packs where cooperation during hunting is a key feature. In their social groups, they exhibit a balanced and cooperative approach, working together to bring down larger prey or defend their territory from potential threats.",
+        "The Dracoviper's venom, secreted by oral glands, contains potent enzymes and toxins. It immobilizes and partially digests prey, allowing efficient nutrient extraction without transporting large carcasses.",
+        "The pack's unity relies on an intricate communication system that includes vocalizations, body language, and visual cues. These mechanisms ensure flawless coordination during hunts and promote a sense of unity within the group."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

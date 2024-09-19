@@ -1,0 +1,41 @@
+{
+    "name": "Ocepechelon",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "By strategically placing themselves within powerful ocean currents, they can effortlessly glide for hundreds of miles, which not only helps them cover vast distances but also allows them to access different feeding grounds and potential mating areas.",
+        "They use their streamlined bodies and camouflage to blend into their surroundings, patiently waiting for passing schools of fish or other marine life, often relying on their keen low-light vision to spot movement in the dimly lit ocean depths.",
+        "They exhibit intriguing social behaviors, one of which is known as \"shadow play.\" This behavior involves pairs or small groups of Ocepechelons engaging in synchronized swimming patterns that create intricate shadow patterns on the ocean floor.",
+        "By grouping together, the adults create a formidable armored presence around their young that deters potential predators. This collective defense strategy is especially crucial in the deep-sea environment where dangers lurk."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

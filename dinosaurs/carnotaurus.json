@@ -1,0 +1,41 @@
+{
+    "name": "Carnotaurus",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "They often enjoy hunting in open plains, where they can utilize their great speed to chase down prey without the hindrance of trees, rocks, or hills.",
+        "They are highly aggressive and voracious eaters, often consuming their prey quickly and leaving no scraps behind, and they are known for their intelligence in hunting, typically setting ambushes and avoiding confrontations with larger predators.",
+        "They engage in playful but intense roughhousing within their pack, frequently butting heads to build strength and improve their combat skills.",
+        "Female Carnotaurus form strong bonds and can be caring mothers, raising their young together, while males are hyper-aggressive during mating season, fighting for dominance over a pack of females and then scattering after mating."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

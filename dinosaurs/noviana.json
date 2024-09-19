@@ -1,0 +1,40 @@
+{
+    "name": "Noviana",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Highly nomadic and incredibly adaptable, they thrive in various habitats, widening the range of their diet considerably.",
+        "When it comes to hunting they excel in ambush tactics, utilizing their impressive speed, agility, and innate stealth to surprise and grapple prey with teeth that resemble saw blades.",
+        "They commonly employ fierce displays to intimidate adversaries, demonstrating a preference for instilling fear and deterring threats before resorting to combat."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

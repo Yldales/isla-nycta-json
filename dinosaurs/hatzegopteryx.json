@@ -1,0 +1,46 @@
+{
+    "name": "Hatzegopteryx",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Nearly matching the height of the formidable Quetzalcoatlus, it relies on a galloping start due to its robust size. Once airborne, it excels in navigating thermals, outperforming its airborne counterparts.",
+        "Less inclined towards aquatic environments than its counterparts, it faces challenges taking off from water due to its weight and wider wingspan.",
+        "With its shorter neck and stout beak, it delivers increasingly devastating pecking attacks, repeatedly skewering prey at the spine and neck, showcasing a lethal hunting strategy, and effective defense against potential threats.",
+        "They employ a unique hunting method, occasionally seizing smaller prey, ascending, and either dropping it or carrying it to another location for consumption."
+    ],
+    "rules": [
+        {
+            "content": "Using its carrying/grappling ability for any thing other than fighting is a break of the personal space and/or helping other species rules. No carrying off/pouncing things for fun.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

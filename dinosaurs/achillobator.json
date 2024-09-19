@@ -1,0 +1,109 @@
+{
+    "name": "Achillobator",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                }
+            ]
+        },
+        {
+            "operator": "OR",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 1,
+                    "species": [
+                        "Achillobator"
+                    ]
+                },
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": [
+                        "Deinonychus"
+                    ]
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        },
+        {
+            "operator": "OR",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 1,
+                    "species": [
+                        "Achillobator"
+                    ]
+                },
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": [
+                        "Latenivenatrix"
+                    ]
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Displaying swiftness and intelligence, they are adept predators equipped with sharp claws and serrated teeth, making it well-suited for hunting small to medium-sized prey when operating alone. In a group, their collective numbers can be formidable, particularly when targeting larger prey.",
+        "Exhibiting a highly hierarchical social structure, conflicts often arise within an Achillobator pack. The individual that emerges as the strongest and most dominant assumes the role of the \"Don,\" a position that can be challenging to maintain if the leader becomes weakened or injured.",
+        "Demonstrating a degree of tolerance towards smaller dromaeosaurs and troodontids, certain Achillobators may choose to separate from their own kind to lead a group of raptors called a \"mob\". The Don fiercely guards their position within the mob and will exhibit extreme aggression if another Achillobator attempts to join.",
+        "They exhibit a strict preference for packing with only one species, finding the coexistence of multiple species troublesome and prone to internal strife, leading to deadly conflicts within their own mob."
+    ],
+    "rules": [
+        {
+            "content": "Using its grappling/debuffing ability for any thing other than fighting is a break of the personal space and/or helping other species rules. No pouncing/debuffing things for fun.",
+            "subItems": []
+        },
+        {
+            "content": "Can only pack with one species of small raptor, up to 4 Adults/Subs + Unlimited hatchlings/juveniles/adolescents.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

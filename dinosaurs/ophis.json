@@ -1,0 +1,63 @@
+{
+    "name": "Ophis",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Frequently forming lifelong bonds, these creatures prioritize their closest companions and are often not suited for caretaking or raising offspring due to their focus on their partner.",
+        "To combat the sluggishness caused by colder waters, certain Ophis may feature a thinner yet highly specialized skin that optimizes the absorption and retention of solar energy for heat.",
+        "While their terrestrial movements may appear slow and cumbersome, they are well-adapted to their aquatic environment, where they demonstrate agility and efficiency in pursuing their prey."
+    ],
+    "rules": [
+        {
+            "content": "Solo AND paired adult/sub Ophis will defend any lake they reside in from stranger adult/sub Ophis, guarding any aquatic resources their water may hold.",
+            "subItems": [
+                {
+                    "content": "This includes preventing stranger adult/sub Ophis from drinking from their lake, or remaining on their shoreline.",
+                    "subItems": []
+                },
+                {
+                    "content": "These challenges follow the Lake Territory challenge rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "The following water sources cannot be challenged for, but personal space rules still apply.",
+                    "subItems": [
+                        {
+                            "content": "Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.",
+                            "subItems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

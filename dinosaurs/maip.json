@@ -1,0 +1,41 @@
+{
+    "name": "Maip",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Known for their eerie vocalizations and lethal cunning, these nocturnal creatures frequently employ their calls to bewilder and unsettle their prey. They swiftly strike in hit-and-run attacks, collaborating to bleed out their target over time until it becomes too weak to fight.",
+        "Appearing revitalized by the taste of blood, the fervor of one can trigger a shared bloodlust among others in its pack. This can transform a feeding session into a struggle for dominance over who gets the first meaty bites from a carcass.",
+        "Exhibiting strong competitiveness and opportunism, a lone Maip might prioritize intimidating other carnivores away from meals rather than hunting. This reduces the chances of getting injured and being perceived as vulnerable by fellow Maip.",
+        "Displaying a matronly disposition, female Maip typically hold more dominance within the species. While they might assert authority over smaller males, they also exhibit a strong protective instinct towards offspring, whether born within the pack or adopted."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

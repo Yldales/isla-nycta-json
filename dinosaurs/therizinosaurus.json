@@ -1,0 +1,40 @@
+{
+    "name": "Therizinosaurus",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+      {
+        "operator": "AND",
+        "limitations": [
+          {
+            "ages": [
+              "Adult",
+              "Subadult"
+            ],
+            "size": 4,
+            "species": "Any"
+          },
+          {
+            "ages": [
+              "Hatchling",
+              "Juvenile",
+              "Adolescent"
+            ],
+            "size": "Unlimited",
+            "species": "Any"
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      "Confident and bold, the theri will not hesitate to defend itself or its herd from any distance with their loud calls that can be heard from a great distance.",
+      "Picky when it comes to choosing a mate, and will pick based on claw size or their potential suitor.",
+      "While they are tolerant of and will pack with any herbivore, they are known to be into themselves, and particularly for bullying deinocheirus solely because of their difference in claw size compared to the theri."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+  }

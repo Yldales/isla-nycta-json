@@ -1,0 +1,40 @@
+{
+    "name": "Iguanodon",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Extremely social, herds are often seen bonding and socializing with not only each other, but also other herbivores.",
+        "Females all work together to communally raise young, and protect them fiercely.",
+        "Utilizes it’s incredible sharp thumb to maim and stab threats."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Kaiwhekea",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+      {
+        "operator": "AND",
+        "limitations": [
+          {
+            "ages": [
+              "Adult",
+              "Subadult"
+            ],
+            "size": 5,
+            "species": "Any"
+          },
+          {
+            "ages": [
+              "Hatchling",
+              "Juvenile",
+              "Adolescent"
+            ],
+            "size": "Unlimited",
+            "species": "Any"
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      "Commonly seen frequently breaching out of the water.",
+      "Seems to prefer saltwater water bodies.",
+      "Often avoids going upon shore."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+  }

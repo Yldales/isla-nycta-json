@@ -1,0 +1,35 @@
+{
+    "name": "Struthiomimus",
+    "tier": 1,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Often act as sentries for herds, distress calling to alert them of any danger.",
+        "Playful with other herbivores, mock-kicking (without actually making contact), jumping around, squawking, etc.",
+        "Seems restless and skittish, always on the move.",
+        "Known to play chicken with larger dinosaurs, mock kicking or pecking close to them, then quickly fleeing the scene."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Mosasaurus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Juvenile mosasaurs flourish in a closely-knit group called a \"lounge,\" establishing strong social connections that aid in collaborative hunting and protection. As they mature, they increasingly develop territorial instincts, eventually branching off to pursue solo hunting expeditions or forming partnerships.",
+        "They demonstrate advanced hunting methods, employing coordinated strategies like corralling schools of fish or collaborating to swiftly take down larger prey through powerful, tearing bites.",
+        "These silent predators turn aggressive when confronted with an unfamiliar threat of comparable size, frequently emitting bellows, slapping their fins against the water's surface, or showcasing their massive jaws, hoping to avoid a fight, or be enough of a distraction for their hunting partner to strike from behind.",
+        "Adults typically favor a specific basking spot, occasionally beaching themselves. This behavior provides an opportunity for small scavengers like the Compsognathus to hop into their mouths, offering a cleaning service for their teeth."
+    ],
+    "rules": [
+        {
+            "content": "Solo AND paired adult/sub Mosasaurus will defend any lake they reside in from stranger adult/sub Mosasaurus, guarding any aquatic resources their water may hold.",
+            "subItems": [
+                {
+                    "content": "This includes preventing stranger adult/sub Mosasaurus from drinking from their lake, or remaining on their shoreline.",
+                    "subItems": []
+                },
+                {
+                    "content": "These challenges follow the Lake Territory challenge rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "The following water sources cannot be challenged for, but personal space rules still apply.",
+                    "subItems": [
+                        {
+                            "content": "Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.",
+                            "subItems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

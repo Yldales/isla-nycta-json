@@ -1,0 +1,40 @@
+{
+    "name": "Yutyrannus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Though primarily an opportunistic predator that targets smaller animals like lizards, birds, and rodents, they are efficient hunters while packed, taking down larger prey when necessary.",
+        "While hunting alone, Yutyrannus maintains silence to avoid alerting potential prey. However, during cooperative hunts or when interacting with other individuals, they utilize vocalizations to coordinate movements and maintain group cohesion.",
+        "An unusually passive creature, they display little concern when scavengers steal its food and may even go out of their way to \"pack\" with Compsognathus who find feasts in the densely packed feathers."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

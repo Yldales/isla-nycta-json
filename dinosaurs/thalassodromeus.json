@@ -1,0 +1,40 @@
+{
+    "name": "Thalassodromeus",
+    "tier": 1,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 10,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Thalassodromeus are a very gregarious dinosaur and prefer to nest in colonies on high ground, but keep a safe distance between separate flocks.",
+        "Predators of the sky, the they are not afraid of hunting on both land and in the water, diving from the sky to steal food from larger predators.",
+        "Fairly strong swimmers, often seen plunge-diving head first after fish."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

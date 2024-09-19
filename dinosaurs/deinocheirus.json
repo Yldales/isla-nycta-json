@@ -1,0 +1,45 @@
+{
+    "name": "Deinocheirus",
+    "tier": 4,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Generally lazy, deinocheirus love to lay around on the shore and soak up the sunshine.",
+        "Nomadic in nature, deinocheirus loves to roam from lake to lake.",
+        "Female deinocheirus are incredibly caring and attentive mothers, whereas males are not too bothered about spending time with their young."
+    ],
+    "rules": [
+        {
+            "content": "Does not get along with Apatosaurus, Ampelosaurus, Eotriceratops, Parasaurolophus or Barsboldia and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

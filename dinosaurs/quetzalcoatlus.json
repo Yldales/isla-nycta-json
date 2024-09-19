@@ -1,0 +1,40 @@
+{
+    "name": "Quetzalcoatlus",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Often seen foraging through sparsely forested areas, looking for small prey that it can swallow whole, or using its elongated beak to search through shallow lakes and streams, searching for fish and other aquatic creatures.",
+        "Though they may occasionally tolerate the presence of Thalassodromeus, it's not uncommon for them to bully the smaller pterosaur away from prey, especially if they're feeling too lazy to hunt for themselves.",
+        "Despite their large size, they are capable of traveling long distances without tiring, soaring for hours without flapping their wings and conserving energy by using thermal updrafts to stay aloft."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

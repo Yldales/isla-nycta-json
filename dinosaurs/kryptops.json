@@ -1,0 +1,40 @@
+{
+    "name": "Kryptops",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Working together in coordinated attacks, a pack of these predators employs their grappling jaw strength as a key tactic to exhaust and subdue their target.",
+        "Whether it is during combat, territorial disputes, or accidental collisions with a misjudged charge, their natural armor aids in absorbing and dispersing the force, minimizing potential damage.",
+        "Utilizing their considerable stamina, they may undertake long-distance migrations to access more favorable hunting grounds, breeding areas, or nesting sites, ensuring the survival and well-being of the pack."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

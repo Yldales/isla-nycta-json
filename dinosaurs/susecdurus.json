@@ -1,0 +1,41 @@
+{
+    "name": "Susecdurus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Although they mingle with herbivore herds, they display omnivorous tendencies and can have a penchant for meat while alone or with other Susecdurus. This behavior might lead herbivores to regard them with caution, if not aggression if they get too close.",
+        "Susecdurus commonly establish compact family units comprised of as many as three adults alongside their offspring. Adult members exhibit a protective demeanor toward the young, frequently encircling them to create a defensive boundary in response to perceived dangers.",
+        "When they do hunt, they adopt cooperative hunting tactics reminiscent of their defensive pack behavior. This involves collaborating to herd prey or orchestrating synchronized attacks from various directions, effectively enhancing their likelihood of success.",
+        "Even though their armor-like thick skin may give the impression of heaviness, they are remarkably skilled swimmers. They can proficiently submerge themselves well beneath the water's surface, a technique occasionally employed during hunting pursuits."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

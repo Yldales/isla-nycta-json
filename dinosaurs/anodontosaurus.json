@@ -1,0 +1,40 @@
+{
+    "name": "Anodontosaurus",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "A generally quiet herbivore, and prefers quiet as well. Has been known to leave other herbivores if they are too loud.",
+        "A walking tank, their impenetrable armor takes this herbivore off the menu for most carnivores.",
+        "Not the most intelligent herbivore, but their impressive physical attributes have allowed them to thrive."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Argentinosaurus",
+    "tier": 5,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+      {
+        "operator": "AND",
+        "limitations": [
+          {
+            "ages": [
+              "Adult",
+              "Subadult"
+            ],
+            "size": 2,
+            "species": "Any"
+          },
+          {
+            "ages": [
+              "Hatchling",
+              "Juvenile",
+              "Adolescent"
+            ],
+            "size": "Unlimited",
+            "species": "Any"
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      "Extremely large and slow, Argentinosaurus do not tend to travel long distances until they exhaust food resources in the area they currently inhabit.",
+      "Docile, passive, and happy to just enjoy eating, though they will defend themselves against any threat that feels brave enough to attack them.",
+      "Argentinosaurus are not comfortable with anything underneath them, and will stomp in alarm."
+    ],
+    "rules": [
+      {
+        "content": "Large Sauropod Aggression",
+        "subItems": [
+          {
+            "content": "They are passive in water and CANNOT become aggressive if something is in their personal space, unless they are directly attacked.",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "content": "In water, their tails and necks can be ignored, though for the body, personal space rules still apply for non-Argents/non-Tier 0, who can choose to defend their space, or move.",
+        "subItems": [
+          {
+            "content": "They are semi-passive on land and can protect their personal space which is directly under their belly/feet and flying above them, only chasing down something that has directly attacked them or their hatchling/juvenile/adolescent.",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "content": "Since they are meant to be passive, spam calling is considered a passive-aggressive action. This behavior forces others to threaten and/or fight you and will be marked as a rule break.",
+        "subItems": []
+      },
+      {
+        "content": "Sub-Adults and Adults cannot defend or meat shield each other.",
+        "subItems": []
+      }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+  }

@@ -1,0 +1,62 @@
+{
+    "name": "Spinosaurus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Lazy, prefers to eat fish or bully others away from their kill rather than hunt.",
+        "Doesn’t seem to care if smaller creatures (Deinonychus, Latenivenatrix, and non-Spino juveniles) eat from their meals, as long as the Spino isn’t eating at the same time."
+    ],
+    "rules": [
+        {
+            "content": "Solo AND paired adult/sub Spinosaurus will defend any lake they reside in from stranger adult/sub Spinos, guarding any aquatic resources their water may hold.",
+            "subItems": [
+                {
+                    "content": "This includes preventing stranger adult/sub Spinosaurus from drinking from their lake, or remaining on their shoreline.",
+                    "subItems": []
+                },
+                {
+                    "content": "These challenges follow the Lake Territory challenge rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "The following water sources cannot be challenged for, but personal space rules still apply.",
+                    "subItems": [
+                        {
+                            "content": "Great Lake, Grassland Lake, Big Quill Lake, Black-Water Bayou, Hunter's Thicket, Titan's Pass, Green Hill Lake, southern Green Valley lake, southern Triad Falls lake, as well as the two largest lakes of Spined Lizard Lagoon.",
+                            "subItems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

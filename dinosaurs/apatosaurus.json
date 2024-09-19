@@ -1,0 +1,68 @@
+{
+    "name": "Apatosaurus",
+    "tier": 4,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "XD",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "species": "Any",
+                    "size": 2
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "species": "Any",
+                    "size": "Unlimited"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Apatosaurus are highly social creatures, frequently vocalizing with members of their species. Adult Apatosaurus are notably aggressive towards carnivores that encroach on their territory.",
+        "Male Apatosaurus attract females by singing loudly and displaying their vibrant neck colors. Females, on the other hand, are largely indifferent to one another and are often seen roaming in search of a strikingly colored male.",
+        "Young Apatosaurus exhibit quirky behaviors, often crouching and hiding at the slightest sound. They are constantly seeking the presence of their parents or a guardian, sometimes mistaking Amargasaurus for their own kind.",
+        "These dinosaurs may not get along with resource guzzling Argentinosaurus or other herbivores within the herd. They may fiercely protect their food sources, occasionally defending them from other herd mates when resources are low."
+    ],
+    "rules": [
+        {
+            "content": "Does not get along with Parasaurolophus, Deinocheirus, Eotriceratops, Barsboldia or Ampelosaurus and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
+            "subItems": []
+        },
+        {
+            "content": "Large Sauropod Aggression",
+            "subItems": [
+                {
+                    "content": "They are passive in water and CANNOT become aggressive if something is in their personal space, unless they are directly attacked.",
+                    "subItems": []
+                }
+            ]
+        },
+        {
+            "content": "In water, their tails and necks can be ignored, though for the body, personal space rules still apply for non-Apato/non-Tier 0, who can choose to defend their space, or move",
+            "subItems": [
+                {
+                    "content": "They are semi-passive on land and can protect their personal space which is directly under their belly/feet and flying above them, only chasing down something that has directly attacked them or their hatchling/juvenile/adolescent.",
+                    "subItems": []
+                }
+            ]
+        },
+        {
+            "content": "Since they are meant to be passive, spam calling is considered a passive-aggressive action. This behavior forces others to threaten and/or fight you and will be marked as a rule break.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Compsognathus",
+    "tier": 0,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Due to their voracious appetites they won't pass up a free meal, even going as far as risking scavenging from larger carnivores.",
+        "Often viewed as the maintenance crew, it is common to see them cleaning the teeth and scales of other creatures.",
+        "In larger packs, these small scavengers can be devastating to smaller creatures and intimidating to larger. Beware of swarms.",
+        "Curious by nature and incredibly playful; they can be seen darting around nesting and feeding grounds, mock hunting and nipping fearlessly.",
+        "Hoarders with a very loose social ranking, those with the biggest collections are often seen as leaders. At least until something else catches their eyes."
+    ],
+    "rules": [
+        {
+            "content": "As Compsognathus are tolerated by all, they can use others as a taxi at their own risk.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

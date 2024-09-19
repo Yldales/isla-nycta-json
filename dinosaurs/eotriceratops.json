@@ -1,0 +1,45 @@
+{
+    "name": "Eotriceratops",
+    "tier": 4,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Giant, powerful, and slow-moving, preferring to stay in an area rather than migrating around.",
+        "Herds are usually led by a dominant bull, who reserves mating rights.",
+        "Bull-fighting for breeding rights is not uncommon among eotriceratops, but rarely do these brawls ever result in death, usually ending in submission instead."
+    ],
+    "rules": [
+        {
+            "content": "Does not get along with Apatosaurus, Ampelosaurus, Deinocheirus, Parasaurolophus or Barsboldia and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

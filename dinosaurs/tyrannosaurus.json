@@ -1,0 +1,45 @@
+{
+    "name": "Tyrannosaurus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Ambush predator, relies on it's huge and powerful jaws to cripple prey before it can escape.",
+        "Seems to prefer remaining in familiar land rather than roaming around.",
+        "Incredibly territorial around food, and will not allow smaller creatures to take from their kills."
+    ],
+    "rules": [
+        {
+            "content": "Extremely aggressive towards other adult Tyrannosaurus outside of their pair, and will not tolerate them in their personal space.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

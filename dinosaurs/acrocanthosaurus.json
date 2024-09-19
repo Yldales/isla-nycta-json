@@ -1,0 +1,50 @@
+{
+    "name": "Acrocanthosaurus",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Proficient at hunting large prey such as sauropods and ornithopods, they often use their serrated teeth to hold onto their prey while taking it down with their powerful builds.",
+        "Remarkably resilient, some individuals can withstand devastating attacks that would incapacitate other creatures of similar size.",
+        "They form strong bonds as mates and hunting partners, often choosing a partner and staying together for life.",
+        "Their loud, resonant vocalizations, which can carry for miles, along with their impressive, ridge-backed postures, intimidate rivals and attract potential hunting partners, ensuring their dominance in both hunting and social hierarchies."
+    ],
+    "rules": [
+        {
+            "content": "Extremely aggressive towards other Acrocanthosaurus outside of their pack, and will not tolerate them in their personal space.",
+            "subItems": []
+        },
+        {
+            "content": "Currently only Apex / Acro IOUS can be used for it. This is subject to change.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

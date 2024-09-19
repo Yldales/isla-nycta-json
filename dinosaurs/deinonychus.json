@@ -1,0 +1,47 @@
+{
+    "name": "Deinonychus",
+    "tier": 1,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Packs are usually lead by a dominant female that is worshipped by the rest in the pack.",
+        "Subordinates often try to cater to the every whim of their queen, bringing her gifts, food, etc.",
+        "Subordinates are fiercely protective of their queen, often giving up their own life to defend her.",
+        "Packs of Deinonychus have various different dances they perform for communication with each other.",
+        "Known to play with other dinos, mock hunting (without biting), crouching, head bobbing, etc."
+    ],
+    "rules": [
+        {
+            "content": "Using its grappling ability for any thing other than fighting is a break of the personal space and/or helping other species rules. No pouncing things for fun.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

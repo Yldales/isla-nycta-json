@@ -1,0 +1,45 @@
+{
+    "name": "Ampelosaurus",
+    "tier": 4,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+      {
+        "operator": "AND",
+        "limitations": [
+          {
+            "ages": [
+              "Adult",
+              "Subadult"
+            ],
+            "size": 2,
+            "species": "Any"
+          },
+          {
+            "ages": [
+              "Hatchling",
+              "Juvenile",
+              "Adolescent"
+            ],
+            "size": "Unlimited",
+            "species": "Any"
+          }
+        ]
+      }
+    ],
+    "behaviors": [
+      "Have been observed to roll around in shallow mud pools in order to keep cool, and protect their skin from the sun.",
+      "Are known to mourn their dead, sometimes even revisiting the site of death for an old herd mate.",
+      "Are typically able to co-exist with smaller herbivore species, which usually stay out of their way due to fear of being trampled."
+    ],
+    "rules": [
+      {
+        "content": "Does not get along with Apatosaurus, Parasaurolophus, Deinocheirus, Eotriceratops or Barsboldia and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
+        "subItems": []
+      }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+  }

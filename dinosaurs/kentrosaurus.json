@@ -1,0 +1,40 @@
+{
+    "name": "Kentrosaurus",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 8,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Herds are formed with close bonds, and herd mates are often aggressively protective over each other.",
+        "Incredibly playful with each other and other herbivores, often running around, jumping, calling, etc.",
+        "Generally skittish in nature, but will defend themselves and their herd to the death."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

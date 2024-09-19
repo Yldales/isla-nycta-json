@@ -1,0 +1,46 @@
+{
+    "name": "Kaprosuchus",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "For a reptile, Kaprosuchus are playful and light-tempered, especially when compared to Sarcos and Deinos. They are often seen running around and playing on land, fondly dubbed \"Kapro zoomies.\"",
+        "When alone, they are often observed relaxing in rivers and ponds between meals, waiting to ambush prey. A group of Kaprosuchus is bolder and prefers to be more terrestrial in hunting, sometimes even trying their luck with larger creatures than themselves.",
+        "When they are not hunting or defending their kills, they can be fairly docile and carefree towards other creatures. However, if other creatures get too close to their space, Kaprosuchus may become aggressive and attack them.",
+        "The only time they are seen acting more aggressively than usual is when they decide to nest. They will defend their nests from anything and everything that gets too close to their eggs and brood. Most hatchlings will stay with the parents in the nests until they are large enough to survive without getting picked off."
+    ],
+    "rules": [
+        {
+            "content": "Kaprosuchus with the Generalist Diet can eat bushes but cannot challenge for them.",
+            "subItems": []
+        }
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}

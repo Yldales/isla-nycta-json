@@ -1,0 +1,40 @@
+{
+    "name": "Nyctatyrannus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "They're adept nocturnal hunters that are proficient at stealthy ambushes when their bioluminescence may fail to attract a prey's curiosity.",
+        "Ravenous due to their high metabolism, they can be very food aggressive and may rarely leave a body behind.",
+        "Packs are often matriarchal where an elder female exerts absolute authority, and will fiercely protect her own."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": ""
+}
