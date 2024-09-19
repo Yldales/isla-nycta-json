@@ -3,7 +3,7 @@
     "tier": 4,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Absentia's Acrocanthosaurus",
     "limitations": [
         {
             "operator": "AND",

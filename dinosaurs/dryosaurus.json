@@ -3,7 +3,7 @@
     "tier": 0,
     "type": "herbivores",
     "is_omnivore": true,
-    "source": "",
+    "source": "Divine Ports: Dryosaurus",
     "limitations": [
         {
             "operator": "AND",

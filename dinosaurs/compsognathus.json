@@ -3,7 +3,7 @@
     "tier": 0,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Divine Beasts: Compsognathus",
     "limitations": [
         {
             "operator": "AND",

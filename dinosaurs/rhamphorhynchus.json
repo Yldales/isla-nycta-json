@@ -3,7 +3,7 @@
     "tier": 0,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Path of Titans",
     "limitations": [
         {
             "operator": "OR",

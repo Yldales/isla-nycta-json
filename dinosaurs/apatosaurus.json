@@ -3,7 +3,7 @@
     "tier": 4,
     "type": "herbivores",
     "is_omnivore": false,
-    "source": "XD",
+    "source": "Primordial Tyrants: Apatosaurus",
     "limitations": [
         {
             "operator": "AND",

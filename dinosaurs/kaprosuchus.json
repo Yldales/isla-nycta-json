@@ -3,7 +3,7 @@
     "tier": 2,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "David Rosa's Kaprosuchus",
     "limitations": [
         {
             "operator": "AND",

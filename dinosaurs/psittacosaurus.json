@@ -3,7 +3,7 @@
     "tier": 1,
     "type": "herbivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Primordial Tyrants: Psittacosaurus",
     "limitations": [
         {
             "operator": "AND",

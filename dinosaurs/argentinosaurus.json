@@ -3,7 +3,7 @@
     "tier": 5,
     "type": "herbivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Primordial Tyrants: Argentinosaurus",
     "limitations": [
         {
             "operator": "AND",

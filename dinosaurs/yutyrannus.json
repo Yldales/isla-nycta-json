@@ -3,7 +3,7 @@
     "tier": 3,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Primordial Tyrants: Yutyrannus",
     "limitations": [
         {
             "operator": "AND",

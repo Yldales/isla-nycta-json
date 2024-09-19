@@ -3,7 +3,7 @@
     "tier": 2,
     "type": "herbivores",
     "is_omnivore": true,
-    "source": "",
+    "source": "Titanus Constructus: Citipati",
     "limitations": [
         {
             "operator": "AND",

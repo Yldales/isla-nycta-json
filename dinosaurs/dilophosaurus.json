@@ -3,7 +3,7 @@
     "tier": 2,
     "type": "carnivores",
     "is_omnivore": false,
-    "source": "",
+    "source": "Primordial Tyrants: Dilophosaurus",
     "limitations": [
         {
             "operator": "AND",
