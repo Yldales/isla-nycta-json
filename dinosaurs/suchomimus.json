@@ -29,11 +29,15 @@
         }
     ],
     "behaviors": [
-        "Generally laid back – prefers to eat fish rather than hunt.",
+        "Generally laid back \u2013 prefers to eat fish rather than hunt.",
         "Seems to tolerate other fishers in the water at a distance."
     ],
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
 }

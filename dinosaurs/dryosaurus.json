@@ -5,57 +5,61 @@
     "is_omnivore": true,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent",
-              "Adult",
-              "Subadult"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent",
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "These curious and reckless little herbivores are known for being very vocal. They use their various chirps and noises to communicate over long distances. Much to the dismay of anyone around them less interested in their conversations.",
-      "Their high speed and agility is being fueled by a fast metabolism, after a day's worth of running around, they can often be seen laying around depleted berry bushes in a near comatose state.",
-      "Generally combat averse and not well equipped to actually defend themselves, they often use their speed and agility to chirp at carnivores that come too close with chirps in spite before trying to escape.",
-      "Known to go along well with other herbivores as their vocal nature, small frame as well as their quick and agile build lets them alert others of approaching dangers."
+        "These curious and reckless little herbivores are known for being very vocal. They use their various chirps and noises to communicate over long distances. Much to the dismay of anyone around them less interested in their conversations.",
+        "Their high speed and agility is being fueled by a fast metabolism, after a day's worth of running around, they can often be seen laying around depleted berry bushes in a near comatose state.",
+        "Generally combat averse and not well equipped to actually defend themselves, they often use their speed and agility to chirp at carnivores that come too close with chirps in spite before trying to escape.",
+        "Known to go along well with other herbivores as their vocal nature, small frame as well as their quick and agile build lets them alert others of approaching dangers."
     ],
     "rules": [
-      {
-        "content": "Dryosaurus can be opportunistic true scavengers that fall under the Tier 0 rules",
-        "subItems": []
-      },
-      {
-        "content": "They also fall under the Omnivore Rules when using the very risky Evolved Gut diet",
-        "subItems": [
-          {
-            "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+        {
+            "content": "Dryosaurus can be opportunistic true scavengers that fall under the Tier 0 rules",
             "subItems": []
-          },
-          {
-            "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
-            "subItems": []
-          },
-          {
-            "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
-            "subItems": []
-          },
-          {
-            "content": "Carnivorous Dryosaurus fall under Carnivore Rules⁠, and can hunt, though cannot claim or challenge for bodies.",
-            "subItems": []
-          }
-        ]
-      }
+        },
+        {
+            "content": "They also fall under the Omnivore Rules when using the very risky Evolved Gut diet",
+            "subItems": [
+                {
+                    "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
+                    "subItems": []
+                },
+                {
+                    "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
+                    "subItems": []
+                },
+                {
+                    "content": "Carnivorous Dryosaurus fall under Carnivore Rules\u2060, and can hunt, though cannot claim or challenge for bodies.",
+                    "subItems": []
+                }
+            ]
+        }
     ],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

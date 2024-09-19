@@ -5,59 +5,63 @@
     "is_omnivore": false,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 6,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "These dinosaurs exhibit strong social tendencies, frequently observed mingling with other herds. However, caution is advised, as these petite omnivores have demonstrated opportunistic behavior by preying on vulnerable hatchlings from different species to sustain their rapidly increasing numbers.",
-      "Males are observed collecting flowers and mushrooms to present to prospective mates. They amass a collection of diverse objects and their treasures through dance and song in an effort to allure potential partners. The most striking displays often involve brightly colored items.",
-      "They are rather curious, bold and prone to 'small dog syndrome'. They steadfastly hold their ground against larger creatures until feeling threatened, at which point they may retreat by burrowing to a safe distance. From this secure vantage point, they mock their perceived threats with playful squeaks.",
-      "They possess a distinctive warning mechanism, akin to the tail of a rattlesnake, where they shake their spines before resorting to a tail swing, embedding toxic and barbed spines into the skin of the perceived threat."
+        "These dinosaurs exhibit strong social tendencies, frequently observed mingling with other herds. However, caution is advised, as these petite omnivores have demonstrated opportunistic behavior by preying on vulnerable hatchlings from different species to sustain their rapidly increasing numbers.",
+        "Males are observed collecting flowers and mushrooms to present to prospective mates. They amass a collection of diverse objects and their treasures through dance and song in an effort to allure potential partners. The most striking displays often involve brightly colored items.",
+        "They are rather curious, bold and prone to 'small dog syndrome'. They steadfastly hold their ground against larger creatures until feeling threatened, at which point they may retreat by burrowing to a safe distance. From this secure vantage point, they mock their perceived threats with playful squeaks.",
+        "They possess a distinctive warning mechanism, akin to the tail of a rattlesnake, where they shake their spines before resorting to a tail swing, embedding toxic and barbed spines into the skin of the perceived threat."
     ],
     "rules": [
-      {
-        "content": "Psittacosaurus fall under the Omnivore Rules",
-        "subItems": [
-          {
-            "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
-            "subItems": []
-          },
-          {
-            "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
-            "subItems": []
-          },
-          {
-            "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
-            "subItems": []
-          },
-          {
-            "content": "Carnivorous Psittacosaurus fall under Carnivore Rules⁠, and can hunt, or challenge any carnivore for a body",
-            "subItems": []
-          }
-        ]
-      }
+        {
+            "content": "Psittacosaurus fall under the Omnivore Rules",
+            "subItems": [
+                {
+                    "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
+                    "subItems": []
+                },
+                {
+                    "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
+                    "subItems": []
+                },
+                {
+                    "content": "Carnivorous Psittacosaurus fall under Carnivore Rules\u2060, and can hunt, or challenge any carnivore for a body",
+                    "subItems": []
+                }
+            ]
+        }
     ],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

@@ -5,37 +5,41 @@
     "is_omnivore": false,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 8,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 8,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "Fast and nimble, often using this to their advantage when hunted.",
-      "They tend to be territorial around food, sometimes even towards their own herd mates if hungry enough.",
-      "Herds are usually led by a dominant bull.",
-      "Bull-fights between styracosaurus are not uncommon, however, these brawls rarely ever result in death, usually ending in submission instead."
+        "Fast and nimble, often using this to their advantage when hunted.",
+        "They tend to be territorial around food, sometimes even towards their own herd mates if hungry enough.",
+        "Herds are usually led by a dominant bull.",
+        "Bull-fights between styracosaurus are not uncommon, however, these brawls rarely ever result in death, usually ending in submission instead."
     ],
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

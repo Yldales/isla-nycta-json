@@ -5,37 +5,41 @@
     "is_omnivore": false,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 6,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "Surprisingly nimble for their size, and have been observed commonly body slamming attackers.",
-      "Commonly seen using their long, strong tails as weapons.",
-      "Herds are usually nomadic, and seem to prefer living in forests or areas with dense vegetation.",
-      "Seems to enjoy being surrounded by different types of herbivores."
+        "Surprisingly nimble for their size, and have been observed commonly body slamming attackers.",
+        "Commonly seen using their long, strong tails as weapons.",
+        "Herds are usually nomadic, and seem to prefer living in forests or areas with dense vegetation.",
+        "Seems to enjoy being surrounded by different types of herbivores."
     ],
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

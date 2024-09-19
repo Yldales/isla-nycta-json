@@ -5,38 +5,42 @@
     "is_omnivore": false,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 6,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "A herd of Nasutoceratops are often lead by a alpha male who remains on the outside of the herd keeping an eye out for potential threats.",
-      "During mating season males will bullfight for a group of females, this is when the herd may change leadership.",
-      "Due to their horns blocking most of their vision, these ceratopsians can be easily startled, broadcasting and running away even if it is not a threat.",
-      "When they are raising their young they are highly aggressive towards any Nasu's not within their herd.",
-      "Young Nasutoceratops are highly dependent on their parents' care, rarely straying too far from the group."
+        "A herd of Nasutoceratops are often lead by a alpha male who remains on the outside of the herd keeping an eye out for potential threats.",
+        "During mating season males will bullfight for a group of females, this is when the herd may change leadership.",
+        "Due to their horns blocking most of their vision, these ceratopsians can be easily startled, broadcasting and running away even if it is not a threat.",
+        "When they are raising their young they are highly aggressive towards any Nasu's not within their herd.",
+        "Young Nasutoceratops are highly dependent on their parents' care, rarely straying too far from the group."
     ],
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

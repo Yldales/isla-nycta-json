@@ -30,11 +30,15 @@
     ],
     "behaviors": [
         "Ambush predator, relies mainly on stealth in order to cripple fast prey.",
-        "Incredibly territorial around food, and will not allow smaller creatures to take from it’s kills.",
+        "Incredibly territorial around food, and will not allow smaller creatures to take from it\u2019s kills.",
         "Sometimes bullies others off of kills rather than hunting itself."
     ],
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
 }

@@ -5,63 +5,67 @@
     "is_omnivore": true,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 3,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "Recognized for their strong parental instincts, these creatures are known to exhibit an instinctual drive to care for offspring. In some instances, they have been observed taking away the young of others to nurture them, despite the potential risk of death posed by protective parents.",
-      "Generally predominantly herbivorous, certain individuals within the species display omnivorous tendencies, especially in response to the attempted escape of their pilfered quarry.",
-      "They are often seen dancing and singing within their flocks, showcasing a unique aspect to their behavior. This communal interaction suggests a level of social bonding and communication within their group.",
-      "Their varied diet facilitates a nomadic lifestyle, allowing them to thrive even in the most arid deserts by efficiently extracting essential nutrients from diverse food sources that are rich in calcium."
+        "Recognized for their strong parental instincts, these creatures are known to exhibit an instinctual drive to care for offspring. In some instances, they have been observed taking away the young of others to nurture them, despite the potential risk of death posed by protective parents.",
+        "Generally predominantly herbivorous, certain individuals within the species display omnivorous tendencies, especially in response to the attempted escape of their pilfered quarry.",
+        "They are often seen dancing and singing within their flocks, showcasing a unique aspect to their behavior. This communal interaction suggests a level of social bonding and communication within their group.",
+        "Their varied diet facilitates a nomadic lifestyle, allowing them to thrive even in the most arid deserts by efficiently extracting essential nutrients from diverse food sources that are rich in calcium."
     ],
     "rules": [
-      {
-        "content": "Citipati can steal babies or what is using them as a meatshield at their own risk.",
-        "subItems": []
-      },
-      {
-        "content": "Citipati fall under the Omnivore Rules.",
-        "subItems": [
-          {
-            "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+        {
+            "content": "Citipati can steal babies or what is using them as a meatshield at their own risk.",
             "subItems": []
-          },
-          {
-            "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
-            "subItems": []
-          },
-          {
-            "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
-            "subItems": []
-          },
-          {
-            "content": "Carnivorous Citipati fall under Carnivore Rules⁠, and can hunt, or challenge any carnivore for a body.",
-            "subItems": []
-          }
-        ]
-      }
+        },
+        {
+            "content": "Citipati fall under the Omnivore Rules.",
+            "subItems": [
+                {
+                    "content": "When herded with herbivore(s), omnivores are not allowed to hunt other players, cannot claim any player or preplaced bodies and must abide by herbivore rules.",
+                    "subItems": []
+                },
+                {
+                    "content": "If an omnivore leaves a group to feast on a body down, it cannot return to any herbivore herd for 30 minutes.",
+                    "subItems": []
+                },
+                {
+                    "content": "Herbivores must be aggressive to omnivores that are not in their herd and treat them as predators/carnivores.",
+                    "subItems": []
+                },
+                {
+                    "content": "Carnivorous Citipati fall under Carnivore Rules\u2060, and can hunt, or challenge any carnivore for a body.",
+                    "subItems": []
+                }
+            ]
+        }
     ],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

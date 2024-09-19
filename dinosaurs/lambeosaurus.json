@@ -9,7 +9,7 @@
             "operator": "AND",
             "limitations": [
                 {
-                    "ages": [   
+                    "ages": [
                         "Adult",
                         "Subadult"
                     ],
@@ -36,5 +36,9 @@
     "rules": [],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
 }

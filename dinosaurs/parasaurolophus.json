@@ -5,41 +5,45 @@
     "is_omnivore": false,
     "source": "",
     "limitations": [
-      {
-        "operator": "AND",
-        "limitations": [
-          {
-            "ages": [
-              "Adult",
-              "Subadult"
-            ],
-            "size": 4,
-            "species": "Any"
-          },
-          {
-            "ages": [
-              "Hatchling",
-              "Juvenile",
-              "Adolescent"
-            ],
-            "size": "Unlimited",
-            "species": "Any"
-          }
-        ]
-      }
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
     ],
     "behaviors": [
-      "Can be very curious in nature and easily startled especially when alone.",
-      "Known to be grazing in open locations for long periods of time.",
-      "Herds of Para are able to identify each other by their head crest which can also be used to ward off carnivores."
+        "Can be very curious in nature and easily startled especially when alone.",
+        "Known to be grazing in open locations for long periods of time.",
+        "Herds of Para are able to identify each other by their head crest which can also be used to ward off carnivores."
     ],
     "rules": [
-      {
-        "content": "Does not get along with Apatosaurus, Ampelosaurus, Deinocheirus, Eotriceratops or Barsboldia and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
-        "subItems": []
-      }
+        {
+            "content": "Does not get along with Apatosaurus, Ampelosaurus, Deinocheirus, Eotriceratops or Barsboldia and will either kick them out of the herd, or leave the herd themselves. These challenges follow the herbivore challenge rules.",
+            "subItems": []
+        }
     ],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
-    "updated_at": ""
-  }
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
