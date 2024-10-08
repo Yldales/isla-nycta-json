@@ -1,0 +1,46 @@
+{
+    "name": "Pachyrhinosaurus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Males are distinguished by their vibrant head crests, which they use to assert dominance and attract mates. These displays often lead to bull fights, showcasing their strength and leadership within the herd.",
+        "They exhibit fierce loyalty and are highly protective of their young, often forming tight-knit family groups.",
+        "Preferring open grasslands, they establish nests in these areas, creating safe environments for raising their young while maintaining a good line of sight for predators.",
+        "Due to their protective and cautious nature, they typically remain within their own species, rarely interacting with other herbivores.",
+        "The bond between mother and calf is exceptionally strong, with the young often staying close to their mothers for comfort and security."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
