@@ -1,0 +1,45 @@
+{
+    "name": "Tropeognathus",
+    "tier": 2,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "They excel in the skies and over the ocean, where they hunt primarily for fish. Opportunistic by nature, they often target smaller flying reptiles like Rhamporhyncus and Thalassodromeus when solo or in smaller packs.",
+        "Their pack consists of an alpha pair and their offspring. In these cohesive groups, they transform into aggressive predators, frequently engaging in mob hunts to take down larger prey such as Hatzegopteryx and smaller Quetzalcoatlus. Ground hunting is rare, but when it occurs, they tend to target juveniles.",
+        "Their social dynamics revolve around loose family bonds, with the alpha pair showing the strongest connection. Parental care is selective, often prioritizing the strongest offspring while abandoning the weak.",
+        "Highly vocal, they are often seen high up on cliffs, showcasing their wings and engaging in loud beak-clapping displays to attract potential mates. Sibling rivalry is fierce, with young frequently fighting to prove their strength and secure their place within the pack."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
