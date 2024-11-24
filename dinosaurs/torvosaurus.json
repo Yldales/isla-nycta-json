@@ -1,3 +1,45 @@
 {
-    
+    "name": "Torvosaurus",
+    "tier": 3,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 3,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Torvosaurus is a formidable predator, known for its relentless hunting strategy. These carnivores stalk their prey with precision, delivering fierce bites that leave their victims bleeding and weakened. Torvosaurus exhibits a unique hunting behavior, often prolonging the chase to observe their prey's gradual decline.",
+        "Tightly bonded with their packmates, they plan their hunts collectively. They are highly aggressive towards other Torvosaurus and display pronounced cannibalistic tendencies. In terms of social hierarchy, females often assert dominance over males through mock biting and physical attacks.",
+        "In the realm of parental care, females show minimal interest in their offspring, leaving the responsibility of raising the young to the males. The young Torvosaurus are notably fearless, displaying curiosity and playfulness. However, due to the species' cannibalistic nature, unprotected juveniles often fall victim to their own kind.",
+        "Torvosaurus' preferred prey, aside from their own species, includes small to medium-sized sauropods, making them versatile and effective hunters in their environment."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
 }
