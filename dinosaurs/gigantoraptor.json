@@ -1,0 +1,46 @@
+{
+    "name": "Gigantoraptor",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Gigantoraptor is a massive, yet still agile and fast theropod. Despite it's big size, this bird's features are much closer to smaller feathered dinosaurs - such as Citipati, rather than a bigger predator.",
+        "This herbivorous bird is not a picky eater, as it has a pretty versatile diet. It often feasts on berries, fruit, nuts and roots, however when it's necessary it can also eat bones and shellfish. It's hard as a rock and sharp beak is a very helpful tool when it comes to opening up the nuts, shells or any other tough food to access.",
+        "Gigantoraptors are very well known for their strong legs with sharp talons. They can use them with an incredible force to defend themselves and their young when necessary. One stomp against a smaller hunter can be deadly and a kick can seriously injure even bigger carnivores.",
+        "These bird-like dinosaurs have a beautiful display of colorful feathers of different lengths. These feathers play a very important role to their survival. Their feathered tail is so thick, that it can block off some attacks and decrease the risk of infection. Another unique function of feathers is thermoregulation - by regulating their body temperature according to the weather, Gigantoraptors are able to run for longer distances and save up more stamina.",
+        "Hundreds of stunning color combinations and markings also help with their social life. These raptors can remain with their herd for years, so choosing the right partner is incredibly important to them. During mating season, the males gather for a group display of their unique feather patterns. Then the female will carefully assess each and every one of them to choose the most attractive partner."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
