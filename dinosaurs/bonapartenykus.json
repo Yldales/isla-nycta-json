@@ -1,0 +1,46 @@
+{
+    "name": "Bonapartenykus",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 6,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "The Bonapartenykus is a small Theropod known for it's sweet sing-song personality and love for grubs. While their main diet may consist of insects, they love all things sugar too! Berries, fruit, and nectar are all well sought after treats.",
+        "It's tail is proportionate to it's body, providing excellent balance while traversing tough terrain at high speeds. While this feathery missile is best fit for temperate areas with low-lying vegetation, it is highly adaptable to diverse landscapes including mountains, deserts, and coastal areas.",
+        "Despite it's cute feathery appearance, it has poisonous saliva that can make just about any predator think twice. Any creature with an open wound can be infected with a quick lick, causing immense pain to the area that prevents clotting.",
+        "They are social creatures and are often found in large groups or freely herding amongst other herbivore species. In larger groups there are more eyes to help them keep watch of predators. The flock will often take turns by dedicating two or three members at a time to keep watch while the others feast on insects or forage for other food. After a while, they trade out spots until everyone is happy and well fed.",
+        "During breeding season they can tend to get a little confused and can often be seen trying to make nests with the same gender or an entirely different species by mistake. Regardless of how hard they may try, this simple mistake can lead to an unfortunate decline in their population. Lucky for them, the Bonapartenykus are not monogamous and will often seek more than one mate during the season."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
