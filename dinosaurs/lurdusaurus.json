@@ -1,0 +1,46 @@
+{
+    "name": "Lurdusaurus",
+    "tier": 2,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 28,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "The Lurdusaurus is a distinctive semi-aquatic herbivore, a close relative of the Iguanodon yet strikingly unique in behavior and appearance. Avoiding open spaces and densely populated regions, they're typically found near saltwater, where they're adept at diving to forge along the ocean floor. Remarkably, they have evolved the ability to consume saltwater, expelling excess salt through a specialized sneezing mechanism, allowing them to stay hydrated in diverse environments.",
+        "They prefer nesting on remote ocean islands and secluded shorelines, safely distanced from predators. The entire herd teaches the young to swim and dive, often gravitating toward coral reefs. They have a peculiar fondness for anemones and are frequently spotted carrying one in their mouths.",
+        "Males engage in frequent, ritualistic bullfights to display their strength and resilience, aiming to impress potential mates. However, they are occasionally observed attempting to court female Iguanodons, which can lead to defensive responses from their larger cousins.",
+        "When faced with carnivorous threats, the herd will instinctively scatter and stampede toward nearby water for safety. They use vocal calls to ward off predators, establishing boundaries around their aquatic sanctuaries.",
+        "They form close-knit family groups, with younger members taking special care of elder members. Males assume the role of protectors, ensuring that females, elderly members, and young are safe before confronting potential threats. Females collaborate in raising young within the herd, teaching them essential survival skills such as swimming, diving, and sliding through their aquatic surroundings."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}

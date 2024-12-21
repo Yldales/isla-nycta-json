@@ -1,0 +1,47 @@
+{
+    "name": "Livyatan",
+    "tier": 5,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "The Livyatan is known as the ocean's giant, constantly inducing fear as the top aquatic predator. It belongs to the order of toothed whales. This enormous marine killer, apart from its gigantic size, is recognized for its sharp teeth, robust body, large head, and powerful, muscular tail that allows it to travel swiftly through the waters.",
+        "Livyatans are deadly carnivorous predators, often feeding on smaller aquatic creatures, fish, or even scallops and shells. However, they will not hesitate to take on larger prey, including other whales. Their hunting tactics are brutal and aggressive—they engage their prey directly, crushing their bodies with enormous, powerful jaws.",
+        "This giant whale often uses it's various vocal calls for many reasons. They can be used as a part of hunting tactics - confusing their prey with high velocity sounds, making it easier to approach it and catch it with its' strong jaws. They're also used for communication between other whales, for example calling their young offspring or potential mates.",
+        "During mating season, males will often fight for the female. They use their giant heads and sharp teeth to weaken their enemy. These fights are pretty spectacular and can be very deadly, as Leviyatans aren't known for being merciful.",
+        "Female Livyatans can be very protective of their babies, as they are much weaker and almost defenseless without their mother. Be careful when approaching a family of the whales, as things can get heated easily. Only the strongest and bravest predators would take on hunting their child."
+
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
