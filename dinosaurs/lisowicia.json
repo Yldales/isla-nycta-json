@@ -1,0 +1,46 @@
+{
+    "name": "Lisowicia",
+    "tier": 3,
+    "type": "herbivores",
+    "is_omnivore": false,
+    "source": "Modded",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 4,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "Despite its size, they are surprisingly mobile in the water. It spends much of its time near water sources to regulate body temperature and deter parasites.",
+        "Its social structure revolves around small, tight-knit pods, usually led by a dominant individual. These groups often engage in communal care, with multiple adults working together to shield juveniles from threats.",
+        "Their deep, guttural bellows serve as both warnings to rivals and a means of maintaining contact within the herd, carrying across great distances in open environments.",
+        "During mating seasons, males engage in ritualistic clashes, using their beaks and bulk to push rivals aside. The victors gain access to prime grazing areas and potential mates.",
+        "These voracious eaters aren’t picky—they’ll make a meal out of whatever they can find, allowing them to thrive in a variety of environments."
+    ],
+    "rules": [],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
