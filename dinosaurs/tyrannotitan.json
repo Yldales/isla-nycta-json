@@ -1,0 +1,48 @@
+{
+    "name": "Tyrannotitan",
+    "tier": 4,
+    "type": "carnivores",
+    "is_omnivore": false,
+    "source": "Path of Titans",
+    "limitations": [
+        {
+            "operator": "AND",
+            "limitations": [
+                {
+                    "ages": [
+                        "Adult",
+                        "Subadult"
+                    ],
+                    "size": 2,
+                    "species": "Any"
+                },
+                {
+                    "ages": [
+                        "Hatchling",
+                        "Juvenile",
+                        "Adolescent"
+                    ],
+                    "size": "Unlimited",
+                    "species": "Any"
+                }
+            ]
+        }
+    ],
+    "behaviors": [
+        "The Tyrannotitan is a remarkably agile and nimble predator, relying on a bite-and-wait strategy. It employs its large, serrated teeth to inflict deep, devastating wounds on its prey, then patiently tracks it, allowing the animal to weaken from the injuries over time before delivering the final blow.",
+        "During hunting, they display a fascinating physiological reaction: the presence or scent of blood triggers a burst of energy that rejuvenates them, helping them maintain relentless pressure on prey, especially during longer encounters.",
+        "These predators are commonly found near riverways, where they wait for prey—such as large sauropods—that seek refuge to cool off. Their hunting behavior can also include cooperative tactics, especially when bringing down large or particularly difficult prey.",
+        "Their deep, resonating roars are a key aspect of their communication, especially during bonding periods. These low-frequency vocalizations carry over long distances and are used to maintain connections between mates and within small packs.",
+        "Parents gradually transition their offspring from reliance on direct care to self-sufficiency. As juveniles grow, parents reduce their involvement, forcing them to adapt to challenges independently. This phased approach allows the young to develop critical survival skills, such as targeting vulnerable prey and evading stronger predators."
+    ],
+    "rules": [
+        "Extremely aggressive towards other Tyrannotitan outside of their pack, and will not tolerate them in their personal space."
+    ],
+    "compatibleSpecies": [],
+    "incompatibleSpecies": [],
+    "updated_at": "",
+    "credit": [
+        "jekyde",
+        "sizablerat"
+    ]
+}
