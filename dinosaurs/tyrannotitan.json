@@ -36,7 +36,9 @@
         "Parents gradually transition their offspring from reliance on direct care to self-sufficiency. As juveniles grow, parents reduce their involvement, forcing them to adapt to challenges independently. This phased approach allows the young to develop critical survival skills, such as targeting vulnerable prey and evading stronger predators."
     ],
     "rules": [
-        "Extremely aggressive towards other Tyrannotitan outside of their pack, and will not tolerate them in their personal space."
+        {
+            "content": "Extremely aggressive towards other Tyrannotitan outside of their pack, and will not tolerate them in their personal space."
+        }
     ],
     "compatibleSpecies": [],
     "incompatibleSpecies": [],
